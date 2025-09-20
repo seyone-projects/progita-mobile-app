@@ -1,0 +1,94 @@
+.booking-details .booking-details-header .fa-arrow-left{
+    font-size: 22px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.booking-details-header{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 3rem; 
+    background-color: white;
+    border-radius: 0.25rem;
+}
+.booking-details .booking-details-container img{
+    width: 130px;
+    height: 150px;
+}
+.booking-details .rating .fa-star{
+    color: #FF9933;
+}
+.booking-details .view-btn{
+    color: #972E2E;
+    font-weight: 500;
+}
+
+.booking-details-container .details-container{
+    max-width: 250px !important;
+    padding: 0% !important;
+    padding-left: 10px !important;
+}
+.reschedule-img {
+    position: relative;
+    display: inline-block;
+  }
+
+  .reschedule-img img {
+    display: block;
+    width: 125px !important;
+    height: 14vh !important;
+    display: flex;
+    justify-self: end;
+    margin-left: 10px;
+  }
+.booking-details .reschedule-img .reschedule-btn {
+    background-color: #ff9933;
+    color: #fff;
+    position: absolute;
+    left: 55%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .booking-details .fa-user-edit,
+  .booking-details .fa-clock,
+  .booking-details .fa-location-dot,
+  .booking-details .fa-user,
+  .booking-details .fa-pencil-alt,
+  .booking-details .fa-angle-right{
+    font-size: 22px;
+    margin-top: 5px;
+    color: #BEBFC2;
+  }
+  .booking-details .fa-x{
+    background-color: #EB4750;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 10px !important;
+  }
+  .booking-details .fa-angle-right{
+    margin-top: 15px;
+    color: #000 !important;
+  }
+  .booking-details hr{
+    width: 92%;
+    margin-left: 12px !important;
+    height: 2px;
+    background-color: #BEBFC2;
+  }
+  .customize-border-cancel{
+    background-color: #F0F3F8;
+    padding: 7px;
+  }
+  .booking-details .details-border{
+    border: 1px solid #BEBFC2;
+  }
+ 
+.booking-details .customize-border h6{
+    font-weight: 600;
+}

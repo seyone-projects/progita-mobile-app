@@ -1,0 +1,41 @@
+.success-content p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.success-content h2{
+    line-height: 2.3rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.success-content .check-icon .fa-check-circle{
+    font-size: 100px;
+    background-color: #FFF0E0;
+    padding: 20px;
+    border-radius: 50%;
+    color: #FF9933;
+}
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    padding: 50px 15px;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.footer-btn {
+    width: 90%;
+    max-width: 400px;
+    background-color: #FF9933; 
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+

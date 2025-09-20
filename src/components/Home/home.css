@@ -1,0 +1,608 @@
+/* General */
+.home-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Image */
+.home-header {
+    position: fixed; /* Keeps the header fixed when scrolling */
+    top: 0; /* Aligns it to the top */
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+}
+
+
+.home-new-logo {
+    width: 100%;
+    display: block;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* User Info */
+.user-info {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.user-details {
+    display: flex;
+    width: 100%;
+}
+
+.user-details i {
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: -20px !important;
+}
+
+.user-text {
+    text-align: left;
+}
+
+.welcome-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+.location-text {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+}
+
+.dropdown-icon {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background: white;
+    color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.dropdown-item {
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+
+/* Search & Discount */
+.search-discount-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    margin-top: -50px;
+}
+
+.discount-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.discount-bold {
+    font-weight: bold;
+}
+
+.first-order {
+    font-style: italic;
+}
+
+/* Carousel Section - Positioned inside the image */
+.home-carousel-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Horizontal Scroll */
+.carousel {
+    display: flex;
+    gap: 10px;
+}
+
+.home-carousal-img {
+    width: 60;
+    height: 60%;
+    padding-left: 40px;
+}
+
+.home-carousal-text {
+    margin-bottom: 0px !important;
+    font-size: 12px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    width: 110px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    height: 110px !important;
+}
+
+
+.offer-tag {
+    background: #6B0505;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: -12px;
+}
+
+
+/* SERVICES*/
+.service{
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+.service .book-card {
+    /* background: url("../../assets/service-bg.jpg") no-repeat center center;*/
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.service .book-card h3 {
+    width: 60%;
+    line-height: 2rem;
+    padding: 18px 10px 0px 10px;
+    margin-left: 10px;
+}
+
+.service .book-card p {
+    padding: 0px 10px 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+.service .book-card button {
+    background-color: #800000;
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 5px 10px 20px;
+    text-align: start;
+    border: none;
+}
+
+.service .category-card {
+    background: linear-gradient(to bottom, #ffffff, #FEF4B5);
+    width: 110%;
+    border-radius: 10px;
+    margin-block-end: 20px;
+}
+
+.service .category-card p {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 0;
+}
+
+.service .category-card img {
+    width: 75%;
+    display: flex;
+    align-self: end;
+}
+
+.service-title {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left !important;
+    margin-bottom: 0px !important;
+}
+
+.near-by-service {
+    margin-top: 30px;
+}
+
+.service-rating {
+    font-size: 14px;
+    text-align: left !important;
+    margin-bottom: 0px !important;
+}
+
+.service .slide-img img {
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    margin-block-start: 15px;
+}
+
+.service .slide-details {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.service .slide-details .fa-star {
+    color: #FF9933;
+}
+
+.service .slide-details .time {
+    margin-left: 15px;
+    color: #B5B7B9;
+}
+
+.service .slide-details .price p,
+.service .slide-details .time {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+}
+
+.service .slide .slide-title {
+    border-radius: 20px;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    border: none;
+}
+
+.service .slide .slide-title h2 {
+    padding: 8px 15px;
+    margin-bottom: 0;
+}
+
+.service .popular-service .tabs button {
+    border: 2px solid #ddd;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.service .tab-img img {
+    margin-top: 10px;
+    width: 75%;
+    height: 100px;
+    display: flex;
+    justify-self: end;
+}
+
+.explore-service {
+    margin-top: 30px;
+}
+
+.explore-img {
+    width: 95%;
+    height: 22vh;
+    border-radius: 15px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* Adjust spacing */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.category-header::before,
+.category-header::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #000;
+    /* Change color as needed */
+}
+
+.category-header span {
+    padding: 0 15px;
+    /* Space between text and lines */
+    font-weight: bold;
+}
+
+.slide-img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    /* Rounded corners */
+    overflow: hidden;
+}
+
+.slide-img img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, #201e1e 0%, #3d3c3c 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 10px;
+}
+
+.category-title {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.service-category {
+    margin-bottom: 20px;
+}
+
+.service .popular-service .tabs button {
+    border: 2px solid #ddd;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.service .tab-details .view-btn button {
+    border: none;
+    background-color: #fff;
+    color: #800000;
+    font-size: 16px;
+}
+
+.tab-img {
+    position: relative;
+    display: inline-block;
+}
+
+.tab-img img {
+    display: block;
+    margin-top: 10px;
+    width: 75%;
+    display: flex;
+    justify-self: end;
+}
+
+.service .tab-img .add-btn {
+    background-color: #ff9933;
+    color: #fff;
+    position: absolute;
+    left: 63%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    border: none;
+    padding: 8px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.service .popular-service .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.service .popular-service .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.service .popular-service .title {
+    font-size: 20px;
+    color: #333;
+    white-space: nowrap;
+}
+
+
+
+.service .booking-service .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.service .booking-service .line {
+    flex: 1;
+    height: 1px;
+    background-color: #aaa;
+}
+
+.service .booking-service .title-box {
+    font-size: 18px;
+    color: #000;
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.tabs-btn {
+    white-space: nowrap !important;
+}
+
+.tabs-carousel-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .tabs-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    white-space: nowrap;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .tabs-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome */
+  }
+  
+  .tabs-wrapper button {
+    background: #ddd;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .tabs-wrapper button.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .tabs-wrapper button.orange {
+    background: #ff9933;
+    color: white;
+  }
+  
+  
+.rasi-banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+  }
+  
+  .rasi-container {
+    position: relative;
+    z-index: 2; /* Ensures the Rasi image stays above the vector */
+  }
+  
+  .rasi-img {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .vector-container {
+    position: relative;
+    margin-left: -10px; /* Moves the vector under the Rasi image */
+  }
+  
+  .vector-img {
+    width: 300px; /* Adjust width as per requirement */
+    height: 50px;
+    margin-left: -10px;
+  }
+  
+  .rasi-text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 999;
+    height: 100px;
+}
+
+.nav-item {
+    text-align: center;
+    flex: 1;
+    color: #ff9933;
+    font-size: 14px;
+}
+
+.nav-item.active {
+    color: #ff9933;
+}
+
+.nav-item i {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.nav-item2 {
+    text-align: center;
+    flex: 1;
+    color: #606060;
+    font-size: 14px;
+}
+
+.nav-item2.active {
+    color: #ff9933;
+}
+
+.nav-item2 i {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.center-icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.rasi-footer-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.text-nowrap {
+    margin-bottom: 0px !important;
+}
+.popular-view-btn
+{
+    text-align: left;
+}

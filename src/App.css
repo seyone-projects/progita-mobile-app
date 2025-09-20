@@ -1,0 +1,314 @@
+/* first page */
+.first-page {
+  display: flex;
+ /* height: 100vh;
+  /* Full viewport height 
+  width: 100vw;
+  /* Full viewport width 
+  overflow: hidden;
+  padding-left: 0px !important;
+  padding-right: 0px !important;*/
+}
+
+.first-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures the image covers the entire space */
+}
+
+/* RESHMA STYLES */
+/* Welcome Screen */
+/* Container */
+.welcome-new-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background Image */
+.welcome-background {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Top Section - Progress Line & Skip Button */
+.welcome-header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Progress Line */
+.progress-line {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.progress-line span {
+  flex-grow: 1;
+  height: 3px;
+  background: white;
+  opacity: 0.5;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.progress-line span.active {
+  opacity: 1;
+}
+
+/* Skip Button */
+.welcome-skip-btn {
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Bottom Content Section */
+.welcome-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  color: white;
+  background: linear-gradient(to top, #6B0505 0%, #800000 0%, rgba(0, 0, 0, 0) 100%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  min-height: 40vh;
+  /* Ensures it covers the bottom portion */
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Title */
+.welcome-content h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.welcome-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+/* Button */
+.welcome-start-btn {
+  display: block;
+  /* Ensures it behaves like a block element */
+  background-color: #ff9933;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 280px;
+  text-align: center;
+  margin: 20px auto;
+  /* Centers horizontally */
+}
+
+/* LOGIN STYLE */
+.login-new-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Top Background Section */
+.login-header {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  /* Adjust height to match design */
+  background: linear-gradient(to bottom, #800000, #6B0505);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Image */
+.login-new-logo {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Overlay Text (Title & Subtitle on Image) */
+.login-overlay {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+}
+
+.login-new-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.login-new-subtitle {
+  font-size: 14px;
+  max-width: 80%;
+  margin-left: 15px;
+}
+
+/* Form Section */
+.login-new-form {
+  width: 90%;
+  max-width: 320px;
+  margin-top: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* OTP Button Container (Fixed at Bottom) */
+.otp-button-container {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  max-width: 320px;
+}
+
+.login-otp-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffeede;
+  color: #b2a7a0;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  cursor: not-allowed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Active button when mobile number is entered */
+.login-otp-btn.active {
+  background-color: #ff9933;
+  /* Brighter color */
+  color: white;
+  cursor: pointer;
+}
+
+/* OTP Section */
+.otp-container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.otp-heading {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.otp-box {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #ff9933;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Countdown Timer */
+.otp-timer {
+  margin-top: 10px;
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* OTP Submit Button */
+.otp-button-container {
+  margin-top: 40px;
+}
+
+.otp-submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff9933;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px; /* Adjust based on design */
+  left: 15px;
+  color: #fff; /* Change to match your design */
+  text-decoration: none;
+  z-index: 1000;
+  padding-left: 19px;
+  margin-bottom: 10px;
+}
+
+.back-arrow i {
+  font-size: 16px;
+}

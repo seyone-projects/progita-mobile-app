@@ -1,0 +1,73 @@
+.add-address-container .modal{
+    display: block;
+    top:10%;
+    height: 100%;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+.add-address-container form label,
+.add-address-container form .save-btn{
+    text-align: start;
+}
+.address-title
+{
+    font-size: 16px;
+}
+.add-address-container form label{
+    font-weight: 600;
+    font-size: 12px;
+}
+.address-form
+{
+    margin:20px 10px 60px 10px ;
+    padding-top: 10px;
+}
+.add-address-container .location-btn{
+    color: #FF9933;
+    border:1px solid #ddd;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.add-address-container form .save-btn button:first-child{
+    background-color: #FF9933;
+    color: #fff;
+}
+.add-address-container form .save-btn button:last-child{
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.add-address-container .form-container{
+    background-color: #F0F3F8;
+}
+.modal-body{
+    padding: 0%;
+}
+/* Center the button in the modal footer */
+.address-modal-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+/* Save Address Button Styling */
+.save-address-btn {
+    width: 90%;  /* Makes it almost full-width */
+    max-width: 300px; /* Limits width on larger screens */
+    padding: 12px;
+    background-color: #FF9933; /* Blue background */
+    color: white; /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.save-address-btn:hover {
+    background-color: #FF9933; /* Darker blue on hover */
+}

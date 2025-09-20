@@ -1,0 +1,361 @@
+
+.servicepage .book-card {
+  background: url("../../assets/service-page.jpg") no-repeat center center;
+  background-size: cover;
+  /*height: 21vh;*/
+  width: 100%;
+  border-radius: 15px;
+  color: #fff;
+  margin-top: 80px;
+}
+.servicepage
+{
+    margin-bottom: 150px;
+}
+.servicepage-header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    color: #000;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.servicepage .book-card h3 {
+  width: 60%;
+  line-height: 2rem;
+  padding: 18px 10px 0px 10px;
+  margin-left: 10px;
+}
+.servicepage .book-card p {
+  padding: 0px 10px 5px 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+.servicepage .book-card .book-btn {
+    background-color: #800000;
+    width: 40%;
+    margin-left: 15px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 20px; 
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .servicepage .book-card .book-btn i {
+    margin-left: auto;
+  }
+  
+.servicepage .category-card {
+  background: linear-gradient(to bottom, #ffffff, #fef4b5);
+  width: 105%;
+  border-radius: 10px;
+}
+.servicepage .category-card p {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0px 0px 10px;
+  margin-bottom: 0;
+}
+.servicepage .category-card img {
+  width: 75%;
+  display: flex;
+  align-self: end;
+}
+
+.near-by-service {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.servicepage-rating {
+    font-size: 14px;
+    text-align: left !important;
+    margin-bottom: 0px !important;
+}
+
+.servicepage .slide-img img {
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    margin-block-start: 15px;
+}
+
+.servicepage .slide-details {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.servicepage .slide-details .fa-star {
+    color: #FF9933;
+}
+
+.servicepage .slide-details .time {
+    margin-left: 15px;
+    color: #B5B7B9;
+}
+
+.servicepage .slide-details .price p,
+.servicepage .slide-details .time {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+}
+
+.servicepage .slide .slide-title {
+    border-radius: 20px;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    border: none;
+}
+.servicepage .popular-service .tabs button {
+    border: 2px solid #ddd;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.servicepage .tab-details .view-btn button {
+    border: none;
+    background-color: #fff;
+    color: #800000;
+    font-size: 16px;
+}
+
+.tab-img {
+    position: relative;
+    display: inline-block;
+}
+
+.tab-img img {
+    display: block;
+    margin-top: 10px;
+    width: 75%;
+    display: flex;
+    justify-self: end;
+}
+
+.servicepage .tab-img .add-btn {
+    background-color: #ff9933;
+    color: #fff;
+    position: absolute;
+    left: 63%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    border: none;
+    padding: 8px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.servicepage .popular-service .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.servicepage .popular-service .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.servicepage .popular-service .title {
+    font-size: 20px;
+    color: #333;
+    white-space: nowrap;
+}
+
+
+
+.servicepage .booking-service .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.servicepage .booking-service .line {
+    flex: 1;
+    height: 1px;
+    background-color: #aaa;
+}
+
+.servicepage .booking-service .title-box {
+    font-size: 18px;
+    color: #000;
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.tabs-btn {
+    white-space: nowrap !important;
+}
+
+.tabs-carousel-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .tabs-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    white-space: nowrap;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .tabs-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome */
+  }
+  
+  .tabs-wrapper button {
+    background: #ddd;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .tabs-wrapper button.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .tabs-wrapper button.orange {
+    background: #ff9933;
+    color: white;
+  }
+  
+.rasi-banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+  }
+  
+  .rasi-container {
+    position: relative;
+    z-index: 2; /* Ensures the Rasi image stays above the vector */
+  }
+  
+  .rasi-img {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .vector-container {
+    position: relative;
+    margin-left: -10px; /* Moves the vector under the Rasi image */
+  }
+  
+  .vector-img {
+    width: 300px; /* Adjust width as per requirement */
+    height: 50px;
+    margin-left: -10px;
+  }
+  
+  .rasi-text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 999;
+    height: 100px;
+}
+
+.nav-item {
+    text-align: center;
+    flex: 1;
+    color: #ff9933;
+    font-size: 14px;
+}
+
+.nav-item.active {
+    color: #ff9933;
+}
+
+.nav-item i {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.nav-item2 {
+    text-align: center;
+    flex: 1;
+    color: #606060;
+    font-size: 14px;
+}
+
+.nav-item2.active {
+    color: #ff9933;
+}
+
+.nav-item2 i {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.center-icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.rasi-footer-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.text-nowrap {
+    margin-bottom: 0px !important;
+}
+.popular-view-btn
+{
+    text-align: left;
+}

@@ -1,0 +1,37 @@
+.image-box {
+  width: 7rem;
+  height: 7rem !important;
+  object-fit: cover;
+}
+
+.star-icon {
+    color: #ff9933;
+}
+
+.view-more-btn {
+  background-color: #ff9933;
+}
+
+.next-btn {
+  background-color: #ff9933 !important;
+}
+.next-btn2{
+  border: 1px solid #ff9933 !important;
+  color: #ff9933 !important;
+}
+.border-btn{
+  border: 1px solid #BEBFC2 !important;
+}
+
+@media (max-width: 395px) {
+  .image-box {
+    width: 6rem !important;
+    height: 6rem !important;
+  }
+
+  .image-box-last {
+    width: 6rem !important;
+    height: 6rem !important;
+    font-size: 18px !important;
+  }
+}
